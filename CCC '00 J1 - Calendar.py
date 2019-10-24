@@ -31,7 +31,6 @@ if start_on == 1:
 else:
     print('\n' + preceding_space * ' ', end=3 * ' ')
 
-# All dates at the end of a week (row) are given by (8 - k)n where k is as defined above and n is the row number (week).
 day_at_end = 8 - start_on
 row_num = 0
 
@@ -54,4 +53,4 @@ for d in range(1, num_days + 1):
             else:
                 print(d, end=2 * ' ')
 
-print()  # This little f*cker really getting on my nerves.
+print()
