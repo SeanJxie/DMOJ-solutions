@@ -15,7 +15,7 @@ int main()
 	for (int i = 0; i <= num_lines; i++) {
 		getline(cin, text);
 
-		for (unsigned long int i = 0; i < text.length(); i++) {
+		for (int i = 0; i < text.length(); i++) {
 			if (tolower(text[i]) == 't') {
 				en_count++;
 			}
