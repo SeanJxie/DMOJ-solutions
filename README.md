@@ -1,2 +1,2 @@
 # DMOJ
-DMOJ Problem solutions. hAHhAhAH
+Why do I need a README?
