@@ -1,2 +1,2 @@
 # DMOJ
-Why do I need a README?
+Look, I know Python kinda slow. But hey, I don't know much of anything else.
