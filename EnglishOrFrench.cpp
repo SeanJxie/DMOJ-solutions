@@ -4,7 +4,8 @@
 using namespace std;
 
 /*
-You would like to do some experiments in natural language processing. Natural language processing (NLP) involves using machines to recognize human languages.
+You would like to do some experiments in natural language processing. Natural language processing (NLP) involves 
+using machines to recognize human languages.
 
 Your first idea is to write a program that can distinguish English text from French text.
 
