@@ -35,8 +35,7 @@ string strbinary(int n) {
 
 	}
 
-	// TODO: Group digits into 4 in a group.
-	if (long unsigned int(rev_final.length()) < 4 * ideal_groups) {
+	if (int(rev_final.length()) < 4 * ideal_groups) {
 		string padding(4 * ideal_groups - rev_final.length(), '0');
 		rev_final += padding;
 	}
