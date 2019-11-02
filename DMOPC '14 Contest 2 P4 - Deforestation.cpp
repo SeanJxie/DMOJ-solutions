@@ -19,13 +19,16 @@ For 50% of the points, N,Q≤10000.
 For the rest, N,Q≤1000000.
 */
 
-#include <iostream>
+#include <bits/stdc++.h>
 #include <vector>
 #include <string>
 
 using namespace std;
 
 int main() {
+   	ios_base::sync_with_stdio(false); 
+    	cin.tie(NULL);
+	
 	int N, temp, queries, lower, upper, sum = 0;
 	string res, to_add;
 	cin >> N;
