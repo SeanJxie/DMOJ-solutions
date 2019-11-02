@@ -1,3 +1,24 @@
+﻿/*
+The Logging Company has a long line of N (1≤N≤1000000) trees numbered from 0 to N−1.
+Each tree i has a mass mi (0≤mi≤2000). The Company wants to cut some of the trees, so
+they hired you to calculate the mass of all the wood they would get from cutting all 
+the trees between positions a and b inclusive (0≤a,b<N). In particular, they want you 
+to answer Q (1≤Q≤1000000) such queries.
+
+Input Specification
+First line: N.
+Lines 2 to N+1: line i+2 is the mass of tree i, mi.
+The line N+2 will contain the integer Q, the number of queries the logging company wants answered.
+The next Q lines will contain the integers a and b.
+Output Specification
+For each query, print the total mass of the trees at position i such that a≤i≤b.
+
+Scoring
+For 30% of the points, N,Q≤1000.
+For 50% of the points, N,Q≤10000.
+For the rest, N,Q≤1000000.
+*/
+
 #include <iostream>
 #include <vector>
 #include <string>
