@@ -12,6 +12,7 @@ Print the index of the first occurrence of the string T in S, or -1 if
 it is not a substring of S.
 */
 
+// INCORRECT SOLUTION (TOO SLOW).
 #include <bits/stdc++.h>
 
 using namespace std;
