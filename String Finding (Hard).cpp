@@ -12,7 +12,7 @@ Print the index of the first occurrence of the string T in S, or -1 if
 it is not a substring of S.
 */
 
-#include <iostream>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -43,6 +43,9 @@ int find_substr(string str, string fstr) {
 }
 
 int main() {
+	ios_base::sync_with_stdio(false); 
+    	cin.tie(NULL);
+	
 	string s, f;
 	cin >> s >> f;
 
