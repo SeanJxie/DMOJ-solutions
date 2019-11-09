@@ -33,12 +33,15 @@ Output Format
 Output a single word (all lowercase), either invalid, valuable, or valueless.
 */
 
-#include <iostream>
+#include <bits/stdc++.h>
 #include <string>
 
 using namespace std;
 
 int main() {
+	ios_base::sync_with_stdio(false); 
+	cin.tie(NULL);
+
 	string ac, lc, valid = "416 647 437";
 	cin >> ac >> lc;
 	if (lc.length() < 7 || valid.find(ac) == string::npos) {
