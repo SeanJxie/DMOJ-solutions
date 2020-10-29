@@ -1,1 +1,1 @@
-Profile: https://dmoj.ca/user/SeanJxie/solved
+https://dmoj.ca/user/SeanJxie/solved
