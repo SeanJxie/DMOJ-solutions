@@ -1,0 +1,1 @@
+from itertools import product;pr = product;s = sum;i = int;ip = input;prn = print;r = range;prn(' '.join(s([[''.join(p) for p in pr("abcdefghijklmnopqrstuvwxyz", repeat=i + 1)] for i in r(3)], [])[:i(ip())]))  # Pre compute then lookup
